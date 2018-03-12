@@ -33,8 +33,8 @@ Made by [Nihal Sharma]
 
 ### Screens
 
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/preference.png"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/preference.png" align="left" height="300" width="250" alt="preference"></a>
+<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/preference.png"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/preference.png" align="left" height="300" width="250" alt="preference"></a>
 
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/touchbar2.jpeg"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/touchbar2.jpeg" align="left" height="300" width="250" alt="clock1"></a>
+<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar1.JPG"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar1.JPG" align="left" height="300" width="250" alt="clock1"></a>
 
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/touchbar1.jpeg"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/595ac299906bf499b4dae29b4732d3d6a2bb7e03/touchbar1.jpeg" align="left" height="300" width="250" alt="clock2"></a>
+<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar2.JPG"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar2.JPG" align="left" height="300" width="250" alt="clock2"></a>
