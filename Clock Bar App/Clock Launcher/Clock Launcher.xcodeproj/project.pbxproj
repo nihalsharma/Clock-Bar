@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B86E851EDEAC980069D254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B86E831EDEAC980069D254 /* Main.storyboard */; };
+		D5A4626C2054B0B300E8B47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A462662054B0B200E8B47E /* Assets.xcassets */; };
+		D5A4626D2054B0B300E8B47E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A462672054B0B200E8B47E /* AppDelegate.m */; };
+		D5A4626E2054B0B300E8B47E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A462692054B0B200E8B47E /* Info.plist */; };
+		D5A4626F2054B0B300E8B47E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4626B2054B0B200E8B47E /* ViewController.m */; };
+		D5A462712054B0C700E8B47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A462702054B0C700E8B47E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11B86E751EDEAC970069D254 /* Clock Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B86E841EDEAC980069D254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A462662054B0B200E8B47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Clock Launcher/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		D5A462672054B0B200E8B47E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Clock Launcher/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		D5A462682054B0B200E8B47E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Clock Launcher/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		D5A462692054B0B200E8B47E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Clock Launcher/Info.plist"; sourceTree = SOURCE_ROOT; };
+		D5A4626A2054B0B200E8B47E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Clock Launcher/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D5A4626B2054B0B200E8B47E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Clock Launcher/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		D5A462702054B0C700E8B47E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Clock Launcher/main.m"; sourceTree = SOURCE_ROOT; };
+		D5A462722054B0D600E8B47E /* Clock Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Clock Launcher.entitlements"; path = "Clock Launcher/Clock Launcher.entitlements"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B86E721EDEAC970069D254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B86E6C1EDEAC970069D254 = {
+			isa = PBXGroup;
+			children = (
+				11B86E771EDEAC970069D254 /* Clock Launcher */,
+				11B86E761EDEAC970069D254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B86E761EDEAC970069D254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B86E751EDEAC970069D254 /* Clock Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B86E771EDEAC970069D254 /* Clock Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				D5A462722054B0D600E8B47E /* Clock Launcher.entitlements */,
+				D5A4626A2054B0B200E8B47E /* AppDelegate.h */,
+				D5A462672054B0B200E8B47E /* AppDelegate.m */,
+				D5A462662054B0B200E8B47E /* Assets.xcassets */,
+				D5A462692054B0B200E8B47E /* Info.plist */,
+				D5A462682054B0B200E8B47E /* ViewController.h */,
+				D5A4626B2054B0B200E8B47E /* ViewController.m */,
+				11B86E831EDEAC980069D254 /* Main.storyboard */,
+				11B86E7B1EDEAC970069D254 /* Supporting Files */,
+			);
+			path = "Clock Launcher";
+			sourceTree = "<group>";
+		};
+		11B86E7B1EDEAC970069D254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A462702054B0C700E8B47E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B86E741EDEAC970069D254 /* Clock Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B86E891EDEAC980069D254 /* Build configuration list for PBXNativeTarget "Clock Launcher" */;
+			buildPhases = (
+				11B86E711EDEAC970069D254 /* Sources */,
+				11B86E721EDEAC970069D254 /* Frameworks */,
+				11B86E731EDEAC970069D254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clock Launcher";
+			productName = "Mute Me Now Launcher";
+			productReference = 11B86E751EDEAC970069D254 /* Clock Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B86E6D1EDEAC970069D254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nihalsharma;
+				TargetAttributes = {
+					11B86E741EDEAC970069D254 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3K68XHVR7W;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11B86E701EDEAC970069D254 /* Build configuration list for PBXProject "Clock Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B86E6C1EDEAC970069D254;
+			productRefGroup = 11B86E761EDEAC970069D254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B86E741EDEAC970069D254 /* Clock Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B86E731EDEAC970069D254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A4626E2054B0B300E8B47E /* Info.plist in Resources */,
+				D5A4626C2054B0B300E8B47E /* Assets.xcassets in Resources */,
+				11B86E851EDEAC980069D254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B86E711EDEAC970069D254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A4626D2054B0B300E8B47E /* AppDelegate.m in Sources */,
+				D5A462712054B0C700E8B47E /* main.m in Sources */,
+				D5A4626F2054B0B300E8B47E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B86E831EDEAC980069D254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B86E841EDEAC980069D254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B86E871EDEAC980069D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11B86E881EDEAC980069D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11B86E8A1EDEAC980069D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Clock Launcher/Clock Launcher.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K68XHVR7W;
+				INFOPLIST_FILE = "Clock Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nihalsharma.Clock-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		11B86E8B1EDEAC980069D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Clock Launcher/Clock Launcher.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K68XHVR7W;
+				INFOPLIST_FILE = "Clock Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nihalsharma.Clock-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B86E701EDEAC970069D254 /* Build configuration list for PBXProject "Clock Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B86E871EDEAC980069D254 /* Debug */,
+				11B86E881EDEAC980069D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B86E891EDEAC980069D254 /* Build configuration list for PBXNativeTarget "Clock Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B86E8A1EDEAC980069D254 /* Debug */,
+				11B86E8B1EDEAC980069D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B86E6D1EDEAC970069D254 /* Project object */;
+}
