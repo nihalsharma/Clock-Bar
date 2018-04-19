@@ -118,8 +118,6 @@ static void *MASObservingContext = &MASObservingContext;
     AppDelegate *appDelegate = (AppDelegate *) [[NSApplication sharedApplication] delegate];
     NSColor *color = [appDelegate colorWithHexColorString:@"FFFF00"];
     [[NSUserDefaults standardUserDefaults] setObject:@"FFFF00" forKey:@"clock_color"];
-    
-    
     [appDelegate changeColor:color];
 }
 
@@ -127,12 +125,7 @@ static void *MASObservingContext = &MASObservingContext;
     AppDelegate *appDelegate = (AppDelegate *) [[NSApplication sharedApplication] delegate];
     NSColor *color = [appDelegate colorWithHexColorString:@"30E6FF"];
     [[NSUserDefaults standardUserDefaults] setObject:@"30E6FF" forKey:@"clock_color"];
-    
-    
     [appDelegate changeColor:color];
 }
-
-
-
 
 @end
