@@ -10,7 +10,6 @@
 		11B86E851EDEAC980069D254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B86E831EDEAC980069D254 /* Main.storyboard */; };
 		D5A4626C2054B0B300E8B47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A462662054B0B200E8B47E /* Assets.xcassets */; };
 		D5A4626D2054B0B300E8B47E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A462672054B0B200E8B47E /* AppDelegate.m */; };
-		D5A4626E2054B0B300E8B47E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A462692054B0B200E8B47E /* Info.plist */; };
 		D5A4626F2054B0B300E8B47E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A4626B2054B0B200E8B47E /* ViewController.m */; };
 		D5A462712054B0C700E8B47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A462702054B0C700E8B47E /* main.m */; };
 /* End PBXBuildFile section */
@@ -18,6 +17,8 @@
 /* Begin PBXFileReference section */
 		11B86E751EDEAC970069D254 /* Clock Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B86E841EDEAC980069D254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9637491A21E256F20025922C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9637491D21E257070025922C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D5A462662054B0B200E8B47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Clock Launcher/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		D5A462672054B0B200E8B47E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Clock Launcher/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		D5A462682054B0B200E8B47E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Clock Launcher/ViewController.h"; sourceTree = SOURCE_ROOT; };
@@ -105,12 +106,12 @@
 		11B86E6D1EDEAC970069D254 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Nihalsharma;
 				TargetAttributes = {
 					11B86E741EDEAC970069D254 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 3K68XHVR7W;
+						DevelopmentTeam = 2U23P5CPX2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -143,7 +144,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A4626E2054B0B300E8B47E /* Info.plist in Resources */,
 				D5A4626C2054B0B300E8B47E /* Assets.xcassets in Resources */,
 				11B86E851EDEAC980069D254 /* Main.storyboard in Resources */,
 			);
@@ -169,6 +169,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				11B86E841EDEAC980069D254 /* Base */,
+				9637491A21E256F20025922C /* zh-Hans */,
+				9637491D21E257070025922C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -180,21 +182,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -228,21 +239,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -272,7 +292,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clock Launcher/Clock Launcher.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K68XHVR7W;
+				DEVELOPMENT_TEAM = 2U23P5CPX2;
 				INFOPLIST_FILE = "Clock Launcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nihalsharma.Clock-Launcher";
@@ -289,7 +309,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clock Launcher/Clock Launcher.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K68XHVR7W;
+				DEVELOPMENT_TEAM = 2U23P5CPX2;
 				INFOPLIST_FILE = "Clock Launcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nihalsharma.Clock-Launcher";
