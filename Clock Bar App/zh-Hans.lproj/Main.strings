@@ -213,7 +213,7 @@
 "UEZ-Bs-lqG.title" = "Capitalize";
 
 /* Class = "NSTextFieldCell"; title = "* Tap the touch bar to toggle between HH:mm and hh:mm format"; ObjectID = "UFS-Lg-E0g"; */
-"UFS-Lg-E0g.title" = "* 触摸 touch bar 在 HH:mm 与 hh:mm 格式之间切换";
+"UFS-Lg-E0g.title" = "* 触摸 touch bar 在 12小时 与 24小时 格式之间切换";
 
 /* Class = "NSMenuItem"; title = "Center"; ObjectID = "VIY-Ag-zcb"; */
 "VIY-Ag-zcb.title" = "Center";
