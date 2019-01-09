@@ -309,7 +309,7 @@
 "dRJ-4n-Yzg.title" = "Undo";
 
 /* Class = "NSButtonCell"; title = "Quit"; ObjectID = "fZe-Yb-1MB"; */
-"fZe-Yb-1MB.title" = "Quit";
+"fZe-Yb-1MB.title" = "退出";
 
 /* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
 "gVA-U4-sdL.title" = "Paste";
