@@ -112,7 +112,7 @@ NSMutableAttributedString *colorTitle;
     button = [TouchButton buttonWithTitle:newDateString target:nil action:nil];
     [button setDelegate: self];
     
-    NSFont *systemFont = [NSFont systemFontOfSize:14.0f];
+    NSFont *systemFont = [NSFont systemFontOfSize:16.0f];
     NSDictionary * fontAttributes = [[NSDictionary alloc] initWithObjectsAndKeys:systemFont, NSFontAttributeName, nil];
 
     colorTitle = [[NSMutableAttributedString alloc] initWithString:[button title] attributes:fontAttributes];
