@@ -23,7 +23,7 @@ TouchButton *button;
 NSString *STATUS_ICON_BLACK = @"clock-64";
 
 NSDateFormatter *timeformatter;
-NSString *format = @"hh:mm";
+NSString *format = @"h:mm";
 NSMutableAttributedString *colorTitle;
 
 
@@ -188,10 +188,11 @@ NSMutableAttributedString *colorTitle;
 - (void)onPressed:(TouchButton*)sender
 {
     NSLog(@"On Press clicked");
-    if ([format isEqual:@"hh:mm"]){
+    if ([format isEqual:@"h:mm"]){
         format = @"HH:mm";
     } else {
-        format = @"hh:mm";
+        format = @"h:mm";
+        
     }
     [timeformatter setDateFormat:format];
 }
