@@ -1,3 +1,7 @@
+# Update
+
+You can install the app directly through `brew cask install clock-bar`
+
 # Clock Bar
 Get clock right on the sweetest spot of the macbook, on the touch bar.
 
