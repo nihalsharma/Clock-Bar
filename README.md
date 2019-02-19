@@ -1,5 +1,4 @@
 # Update
-
 You can install the app directly through `brew cask install clock-bar`
 
 # Clock Bar
@@ -19,7 +18,7 @@ The upper right corner seems the farthest place on the planet to look at. Full o
 ### Ideas for development 
 If you have any ideas that can help us improve this application, please create a new issue.
 
-You can find approved ideas for future implementation [here](https://github.com/nihalsharma/clock-bar/projects/1)
+You can find approved ideas for future implementation [here](https://github.com/nihalsharma/clock-bar/projects/1).
 
 ### How to contribute
 
@@ -33,12 +32,16 @@ You can find approved ideas for future implementation [here](https://github.com/
 
 
 ---
-Made by [Nihal Sharma]
+Made by Nihal Sharma
 
-### Screens
+### Screenshots
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Screen%20Shot.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%201.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%202.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%203.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%204.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%205.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%206.png)
+![image](https://github.com/L1cardo/Clock-Bar/blob/master/Screenshots/Touch%20Bar%20Shot%207.png)
 
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/preference.png"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/preference.png" align="left" height="300" width="250" alt="preference"></a>
 
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar1.JPG"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar1.JPG" align="left" height="300" width="250" alt="clock1"></a>
-
-<a href="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar2.JPG"><img src="https://raw.githubusercontent.com/nihalsharma/Clock-Bar/b105b8a256813fa8c6c3a527b78c19a5983ad10f/touchbar2.JPG" align="left" height="300" width="250" alt="clock2"></a>
