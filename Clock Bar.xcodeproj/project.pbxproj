@@ -17,7 +17,6 @@
 		11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */; };
 		D53AAC71205497DB00767C9A /* ClickableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D53AAC70205497DB00767C9A /* ClickableTextField.m */; };
 		D53E002C2054A19A001625A6 /* clock-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D53E002B2054A19A001625A6 /* clock-64.png */; };
-		D53E002E2054A1AB001625A6 /* clock-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D53E002D2054A1AA001625A6 /* clock-64.png */; };
 		D53E00302054A1B1001625A6 /* clock-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D53E002F2054A1B1001625A6 /* clock-64.png */; };
 		D5A462752054B17B00E8B47E /* Clock Launcher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5A462652054B06B00E8B47E /* Clock Launcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -73,7 +72,6 @@
 		D53AAC70205497DB00767C9A /* ClickableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickableTextField.m; sourceTree = "<group>"; };
 		D53C8A03205510EF00EAAA3D /* Clock Bar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clock Bar.entitlements"; sourceTree = "<group>"; };
 		D53E002B2054A19A001625A6 /* clock-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-64.png"; sourceTree = "<group>"; };
-		D53E002D2054A1AA001625A6 /* clock-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock-64.png"; path = "../../.Trash/clock-64.png"; sourceTree = "<group>"; };
 		D53E002F2054A1B1001625A6 /* clock-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-64.png"; sourceTree = "<group>"; };
 		D5A462602054B06B00E8B47E /* Clock Launcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Clock Launcher.xcodeproj"; path = "Clock Bar App/Clock Launcher/Clock Launcher.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +153,6 @@
 		5D4763251F0562F2005E8DB0 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				D53E002D2054A1AA001625A6 /* clock-64.png */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -196,7 +193,7 @@
 		11B86E451EDE9B4C0069D254 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Nihalsharma;
 				TargetAttributes = {
 					11B86E4C1EDE9B4D0069D254 = {
@@ -252,7 +249,6 @@
 				D53E00302054A1B1001625A6 /* clock-64.png in Resources */,
 				D53E002C2054A19A001625A6 /* clock-64.png in Resources */,
 				11B86E5A1EDE9B4D0069D254 /* Assets.xcassets in Resources */,
-				D53E002E2054A1AB001625A6 /* clock-64.png in Resources */,
 				11B86E5D1EDE9B4D0069D254 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,21 +300,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3K68XHVR7W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -352,21 +357,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3K68XHVR7W;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
