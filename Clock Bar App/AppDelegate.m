@@ -23,7 +23,7 @@ TouchButton *button;
 NSString *STATUS_ICON_BLACK = @"clock-64";
 
 NSDateFormatter *timeformatter;
-NSString *format = @"hh:mm";
+NSString *format;
 NSMutableAttributedString *colorTitle;
 
 
@@ -100,6 +100,12 @@ NSMutableAttributedString *colorTitle;
     [[[[NSApplication sharedApplication] windows] lastObject] close];
 
     DFRSystemModalShowsCloseBoxWhenFrontMost(YES);
+    
+    if ([[NSUserDefaults standardUserDefaults] stringForKey:@"format"] == nil) {
+        [[NSUserDefaults standardUserDefaults] setObject:@"hh:mm" forKey:@"format"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    format = [[NSUserDefaults standardUserDefaults] stringForKey:@"format"];
     
     timeformatter = [[NSDateFormatter alloc] init];
     [timeformatter setTimeStyle: NSDateFormatterShortStyle];
