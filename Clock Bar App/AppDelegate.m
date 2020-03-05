@@ -200,6 +200,7 @@ NSMutableAttributedString *colorTitle;
         format = @"hh:mm";
     }
     [timeformatter setDateFormat:format];
+    [[NSUserDefaults standardUserDefaults] setObject:format forKey:@"format"];
 }
 
 - (void)onLongPressed:(TouchButton*)sender
