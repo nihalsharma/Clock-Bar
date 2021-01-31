@@ -1,6 +1,7 @@
 # Update
 
 You can install the app directly through `brew install --cask clock-bar`
+
 (https://formulae.brew.sh/cask/clock-bar)
 
 # Clock Bar
